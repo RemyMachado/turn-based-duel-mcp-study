@@ -1,0 +1,25 @@
+{
+  "name": "turn-based-duel-mcp-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "simulate": "pnpm --filter @turn-based-duel-mcp-study/duel-simulator start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "vitest": "4.1.9"
+  },
+  "keywords": [],
+  "author": "RemyMachado",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.8.0"
+    }
+  },
+  "type": "module"
+}
