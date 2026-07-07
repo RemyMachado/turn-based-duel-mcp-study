@@ -9,6 +9,8 @@ export {
   canResolveRound,
   createInitialDuelState,
   getLegalCommands,
+  MAX_HP,
+  MAX_STAMINA,
 } from "@turn-based-duel-mcp-study/game-engine";
 
 export type {
